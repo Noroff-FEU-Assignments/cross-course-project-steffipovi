@@ -2,4 +2,4 @@
 cross-course-project-steffipovi created by GitHub Classroom
 
 
-This is a school project in Front-End Development for Noroff.
+--This is a school project in Front-End Development for Noroff.--
