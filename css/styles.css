@@ -5,39 +5,34 @@
     background: rgb(71, 164, 195);
     padding: 10px;
 }
-#header_banner {
-  
-  height: 200px;
-  border: 1px solid #707070;
-  background:rgba(102,132,143,255);
-}
-#rainydays_logo {
-  
-  left: -100px;
-  width: 741px;
-  height: 198px;
+
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#rainydays_logo_ek1 {
-	top: 0px;
-	left: 0px;
-	width: 741px;
-	height: 198px;
-}
-.container{
-  height: 150px;
+.banner-container .banner{
+  background: linear-gradient(-55deg, 1px solid #707070);
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px #0005;
+  overflow: hidden;
 }
 
 .position-nav{
-  position: fixed;
+  position: flex;
   top: 100px;
   left: 700px;
   padding: 20px;
 }
 
 .position-form{
-  position: fixed;
-  top: 170px;
+  position: flex;
+  top: 40px;
   right: 30px;
 }
 
