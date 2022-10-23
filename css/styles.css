@@ -4,8 +4,73 @@
     left: 30px;
     background: rgb(71, 164, 195);
     padding: 10px;
-  }
+}
+#header_banner {
   
-  .container{
-    height: 150px;
-  }
+  height: 236px;
+  border: 1px solid #707070;
+  background:rgba(102,132,143,255);
+}
+#rainydays_logo {
+  
+  left: -100px;
+  width: 741px;
+  height: 198px;
+}
+
+#rainydays_logo_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 741px;
+	height: 198px;
+}
+.container{
+  height: 150px;
+}
+
+.position-nav{
+  position: fixed;
+  top: 100px;
+  left: 700px;
+  padding: 20px;
+}
+
+.position-form{
+  float: right;
+}
+
+.container-main{
+  display: grid;
+  grid-gap: 10px;
+  min-height: 400px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  padding: 10px;
+}
+
+.float{
+  margin: 10px;
+  float: right;
+  width: 600px;
+}
+
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+section{
+  border: 1px solid black;
+}
